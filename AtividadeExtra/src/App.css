@@ -3,3 +3,10 @@
   padding: 0;
   width: 100%;
 }
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 256px 1fr;
+  margin: 0 10rem;
+  gap: 2rem;
+}
