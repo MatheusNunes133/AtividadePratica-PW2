@@ -14,8 +14,6 @@ export default function UserPerfil() {
                 <span>Back-end Developer</span>
             </div>
 
-            <hr />
-
             <footer>
                 <img src={pencil} alt="Lápis para editar" />
                 <a href="#">Editar Perfil</a>
