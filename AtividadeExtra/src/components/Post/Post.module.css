@@ -1,0 +1,89 @@
+article {
+    width: auto;
+    height: auto;
+    background-color: rgba(32, 32, 36, 1);
+    padding: 3rem;
+    border-radius: 8px;
+    margin-bottom: 3rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.header>p {
+    font-size: 10pt;
+    color: rgba(141, 141, 153, 1);
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.user-info {
+    margin-left: 1rem;
+}
+
+
+.avatar>div>p {
+    color: rgba(141, 141, 153, 1);
+    font-size: 10pt;
+}
+
+.anchors {
+    color: rgba(0, 179, 126, 1);
+}
+
+article>hr {
+    border: 1px solid rgba(50, 50, 56, 1);
+    margin: 3rem 0 1rem 0;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.footer>textarea {
+    width: 100%;
+    min-height: 8rem;
+    border: 1px solid rgba(0, 179, 126, 1);
+    background-color: rgba(18, 18, 20, 1);
+    color: white;
+    border-radius: 8px;
+    padding: 1rem;
+    resize: none;
+}
+
+.footer>textarea:focus {
+    outline: none !important
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: rgba(0, 179, 126, 1);
+    color: white;
+    margin-top: 1rem;
+    transition: 0.4s all ease;
+}
+
+.button>p {
+    font-size: 12pt;
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
